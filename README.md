@@ -320,7 +320,7 @@ Functional and technical features -- expressed as requirements above and in prac
 |         |     | ❔        |     |
 |         |     |           | ❌  |
 
-Further details should be thereby be written below to explain how and to what level these features are implemented. See [Evaluation Rubric](https://github.com/OleVik/Digital-Publishing-System-Framework/blob/main/Evaluation Rubric.md) for a fuller example.
+Further details should be thereby be written below to explain how and to what level these features are implemented. See [Evaluation Rubric](https://github.com/OleVik/Digital-Publishing-System-Framework/blob/main/Evaluation%20Rubric.md) for a fuller example.
 
 ## <a name="definitions"></a>Definitions
 
