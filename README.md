@@ -149,7 +149,7 @@ metadata: # DICTIONARY of overrides for OpenGraph as VALUE: KEY
 ---
 ```
 
-These are all document-specific overrides for metadata that implementations MAY infer from a file's metadata on the filesystem, its filename, location, or other attributes. However, if explicitly definited they must take precedence.
+These are all document-specific overrides for metadata that implementations MAY infer from a file's metadata on the filesystem, its filename, location, or other attributes. However, if explicitly defined they must take precedence.
 
 [^yaml-frontmatter]:
     There is no pre-existing standard for variable-naming and use across Content Management Systems, this is therefore an effort to unify current usage based on a cross-section of existing systems, including:
