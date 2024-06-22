@@ -17,7 +17,7 @@ Each evaluated system should have its own copy of the this, ideally shared to th
 | Requirement                                                    | YES | PARTIALLY | NO  |
 | -------------------------------------------------------------- | --- | --------- | --- |
 | [Metadata-management](#metadata-management)                    |     |           |     |
-| [Compatible Interoperability](#compatibile-interoperability)   |     |           |     |
+| [Compatible Interoperability](#compatible-interoperability)   |     |           |     |
 | [Adaptable](#adaptable) to third-party systems                 |     |           |     |
 | [Performant](#performant)                                      |     |           |     |
 | [Accessible](#accessible)                                      |     |           |     |
