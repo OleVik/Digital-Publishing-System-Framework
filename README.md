@@ -42,7 +42,7 @@ Implementations MUST support [Markdown](https://en.wikipedia.org/wiki/Markdown) 
 
 #### <a name="interoperable-standards"></a>Interoperable standards
 
-The [Open Formats using Open Standards](#open-formats-using-open-standards) and [Compatible Interoperability](#compatibile-interoperability) features implicitly prohibit vendor lock-in for content, which is the typical result when [CMS](#abbr-cms)' define and maintain their own standards for how content is implemented. An interoperable standard -- "a characteristic of a product or system to work with other products or systems", from [Wikipedia](https://en.wikipedia.org/wiki/Interoperability) -- is warranted. Being able to use the same content, structured in the same way, across implementations makes the cost of trying out new systems much lower, and [feature-parity](https://martinfowler.com/articles/patterns-legacy-displacement/feature-parity.html) can be broadly achieved. In this regard content and metadata is ephemeral, and Markdown with YAML FrontMatter becomes a de facto standard.
+The [Open Formats using Open Standards](#open-formats-using-open-standards) and [Compatible Interoperability](#compatible-interoperability) features implicitly prohibit vendor lock-in for content, which is the typical result when [CMS](#abbr-cms)' define and maintain their own standards for how content is implemented. An interoperable standard -- "a characteristic of a product or system to work with other products or systems", from [Wikipedia](https://en.wikipedia.org/wiki/Interoperability) -- is warranted. Being able to use the same content, structured in the same way, across implementations makes the cost of trying out new systems much lower, and [feature-parity](https://martinfowler.com/articles/patterns-legacy-displacement/feature-parity.html) can be broadly achieved. In this regard content and metadata is ephemeral, and Markdown with YAML FrontMatter becomes a de facto standard.
 
 The implementation thereafter enhances rendering and associations between content, such that it becomes more [accessible](#accessible). This embraces and facilitates the principle "[Create Once, Publish Everywhere](https://web.archive.org/web/20170522060044/https://www.programmableweb.com/news/cope-create-once-publish-everywhere/2009/10/13)".
 
@@ -112,7 +112,7 @@ In practice, this means that the presentation of and the content itself must be 
 | Requirement                                                    | MUST | SHOULD | MAY |
 | -------------------------------------------------------------- | ---- | ------ | --- |
 | [Metadata-management](#metadata-management)                    | ✖    |        |     |
-| [Compatible Interoperability](#compatibile-interoperability)   | ✖    |        |     |
+| [Compatible Interoperability](#compatible-interoperability)   | ✖    |        |     |
 | [Adaptable](#adaptable) to third-party systems                 |      |        | ✖   |
 | [Performant](#performant)                                      | ✖    |        |     |
 | [Accessible](#accessible)                                      | ✖    |        |     |
@@ -165,7 +165,7 @@ These are all document-specific overrides for metadata that implementations MAY 
     [Docusaurus](https://docusaurus.io/docs/create-doc), and
     [Metalsmith](https://metalsmith.io/docs/getting-started/#front-matter)
 
-#### <a name="compatibile-interoperability"></a>Compatible Interoperability
+#### <a name="compatible-interoperability"></a>Compatible Interoperability
 
 Implementations MUST be able to read and produce output from a folder-structure for content as the following[^filenames]:
 
